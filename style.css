@@ -1,0 +1,52 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+@media all and (orientation: landscape), all and (min-width: 480px) {
+    body {
+        flex-direction: row;
+    }
+}
+@media all and (orientation: portrait), all and (max-width: 480px) {
+    body {
+        flex-direction: column;
+    }
+}
+.first, .second {
+    min-height: 100vh;
+    flex: 1;
+}
+.first {
+    background-image: url('first.JPG');
+    background-size: cover;
+}
+.first span {
+    font-family: Noto Serif, serif;
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+    top: 550px;
+    position: relative;
+    left: 60px;
+    background-color: #e74c3c;
+}
+.second {
+    background-image: url('second.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.second span {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px;
+    font-family: Noto Serif, serif;
+    font-size: 24px;
+    position: relative;
+    left: 60px;
+    top: 500px;
+}

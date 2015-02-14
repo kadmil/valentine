@@ -27,11 +27,6 @@ body {
     }
 }
 @media all and (orientation: portrait), all and (max-width: 480px) {
-    span {
-        font-size: 40px;
-    }
-}
-@media all and (orientation: portrait), all and (max-width: 480px) {
     .first span {
         top: 1050px;
         left: 60px;
@@ -74,7 +69,7 @@ body {
     color: white;
     padding: 10px;
     font-family: Noto Serif, serif;
-    font-size: 24px;
+    font-size: 40px;
     position: relative;
     left: 70px;
     top: 450px;

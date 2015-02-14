@@ -39,7 +39,7 @@ body {
     color: white;
     padding: 10px;
     font-family: Noto Serif, serif;
-    font-size: 24px;
+    font-size: large;
     position: relative;
     left: 70px;
     top: 450px;
@@ -64,7 +64,7 @@ body {
 }
 @media all and (orientation: portrait), all and (max-width: 480px) {
     span {
-        font-size: 80px;
+        font-size: xx-large;
     }
 }
 @media all and (orientation: portrait), all and (max-width: 480px) {

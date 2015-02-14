@@ -25,13 +25,19 @@ body {
         -ms-flex-direction: column;
         flex-direction: column;
     }
+}
+@media all and (orientation: portrait), all and (max-width: 480px) {
     span {
         font-size: 40px;
     }
+}
+@media all and (orientation: portrait), all and (max-width: 480px) {
     .first span {
         top: 1050px;
         left: 60px;
     }
+}
+@media all and (orientation: portrait), all and (max-width: 480px) {
     .second span {
         left: 70px;
         top: 1000px;

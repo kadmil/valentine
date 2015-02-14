@@ -32,13 +32,13 @@ body {
     }
 }
 @media all and (orientation: portrait), all and (max-width: 480px) {
-    span.first {
+    .first span {
         top: 1050px;
         left: 60px;
     }
 }
 @media all and (orientation: portrait), all and (max-width: 480px) {
-    span.second {
+    .second span {
         left: 70px;
         top: 1000px;
     }

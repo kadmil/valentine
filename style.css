@@ -8,41 +8,6 @@ body {
     display: -ms-flexbox;
     display: flex;
 }
-@media all and (orientation: landscape), all and (min-width: 480px) {
-    body {
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-        flex-direction: row;
-    }
-}
-@media all and (orientation: portrait), all and (max-width: 480px) {
-    body {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-    }
-}
-@media all and (orientation: portrait), all and (max-width: 480px) {
-    span {
-        font-size: 80px;
-    }
-}
-@media all and (orientation: portrait), all and (max-width: 480px) {
-    .first span {
-        top: 1050px;
-        left: 60px;
-    }
-}
-@media all and (orientation: portrait), all and (max-width: 480px) {
-    .second span {
-        left: 70px;
-        top: 1000px;
-    }
-}
 .first, .second {
     min-height: 100vh;
     -webkit-box-flex: 1;
@@ -78,4 +43,39 @@ body {
     position: relative;
     left: 70px;
     top: 450px;
+}
+@media all and (orientation: landscape), all and (min-width: 480px) {
+    body {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
+@media all and (orientation: portrait), all and (max-width: 480px) {
+    body {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+@media all and (orientation: portrait), all and (max-width: 480px) {
+    span {
+        font-size: 80px;
+    }
+}
+@media all and (orientation: portrait), all and (max-width: 480px) {
+    .first span {
+        top: 1050px;
+        left: 60px;
+    }
+}
+@media all and (orientation: portrait), all and (max-width: 480px) {
+    .second span {
+        left: 70px;
+        top: 1000px;
+    }
 }

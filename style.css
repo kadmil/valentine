@@ -21,7 +21,7 @@ body {
 }
 .first span {
     font-family: Noto Serif, serif;
-    font-size: 24px;
+    font-size: x-large;
     padding: 10px;
     color: white;
     top: 450px;
@@ -39,7 +39,7 @@ body {
     color: white;
     padding: 10px;
     font-family: Noto Serif, serif;
-    font-size: large;
+    font-size: x-large;
     position: relative;
     left: 70px;
     top: 450px;
